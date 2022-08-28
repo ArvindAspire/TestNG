@@ -15,9 +15,6 @@ public class Test {
         if(!password.matches(".*[!@#$%^&*()-+].*")){
             System.out.println("special");
         }
-        if(!password.matches(".*[-].*")){
-            System.out.println("special2");
-        }
 
     }
 
