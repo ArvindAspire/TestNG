@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -14,6 +15,7 @@ public class LearnTestNG  extends  BaseClass{
     @Test(groups={"sanity"})
     public void test2(){
      System.out.println("This is second test case");
+        Assert.assertEquals(true,false);
 
     }
 
